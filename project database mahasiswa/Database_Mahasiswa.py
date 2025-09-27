@@ -62,4 +62,3 @@ class database_mahasiswa:
             print(f'Mahasiswa ditemukan!\nNama:{list_nama[i]}NIM: {x.strip()}')
 
 db = database_mahasiswa(r'project database mahasiswa\Nama',r'project database mahasiswa\Nim')
-db.cari_mahasiswa('2025006')
